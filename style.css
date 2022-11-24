@@ -256,7 +256,6 @@ span{
 }
 
 .sun{
-    /* background-image: url(./sun.png); */
     height: 50px;
     width: 50px;
     position: absolute;
@@ -272,6 +271,7 @@ span{
    margin-left: 3px;
    top: 395px;
    animation: road 3s linear infinite;
+   z-index: 0;
    
 }
 @keyframes road {
@@ -287,7 +287,6 @@ span{
 
 
 .car{
-    /* background-image:url(./car.png) ; */
     position: absolute;
     bottom: 20px;
     top: 400px;
